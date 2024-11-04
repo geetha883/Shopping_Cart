@@ -1,0 +1,103 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header{
+    background-color: #2b769b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.cart-button{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.cart-button:hover{
+    background-color: #e68a00;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+/* Product Card Styles */
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 20px;
+}
+
+
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.card-content h2{
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.card-content p{
+    margin: 5px 0;
+    color: #555;
+}
+
+.card-content .rating{
+    color: #FFD700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-content .price{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:rgb(12, 13, 13);
+}
+
+.add-to-cart{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(37, 79, 99);
+}
+
